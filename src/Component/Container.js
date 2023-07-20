@@ -19,7 +19,7 @@ const Container = () => {
   return (
     <div className="flex flex-wrap">
       {/* left container */}
-      <div className="w-full hidden xl:block lg:block top-0 md:w-1/2 lg:w-1/3 xl:w-1/4 px-4">
+      <div className="w-full hidden xl:block lg:block top-0 md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 xl:sticky xl:top-0-0 ">
         <div className="bg-[#ffffff] p-4">
           <div className="">
             <h2 className="text-lg text-[#1A1757] font-bold mb-4">

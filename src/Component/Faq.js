@@ -68,7 +68,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="container w-full p-6" name="Faq">
+    <div className="container w-full lg:w-full sm:w-full p-6" name="Faq">
       <h1 className="text-[#1a1757] font-bold text-3xl mb-6 pl-4">FAQs</h1>
       {faqs.map((faq, index) => (
         <FAQItem
