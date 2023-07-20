@@ -4,7 +4,7 @@ const Table = () => {
  
   return (
     <div className="w-[94%] mt-6 lg:w-full sm:w-full">
-      <table className="table-auto w-full border-1 border-[#696969]">
+      <table className="table-auto sm:w-full w-full border-1 border-[#696969]">
         <thead className="bg-[#0ea2aa] text-[#ffffff]">
           <tr>
             <th>School</th>
