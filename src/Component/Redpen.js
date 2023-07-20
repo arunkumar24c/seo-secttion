@@ -43,12 +43,12 @@ const Redpen = () => {
         consulting, family business, not-for-profit, and the armed forces.
       </p>
       {/* card */}
-      <div className="bg-[#f3f3f3]  mt-8 mb-5">
+      <div className="bg-[#f3f3f3] h-auto mt-8 mb-5">
         <h1 className="text-[#1a1757] flex justify-center font-bold text-2xl pt-4 pb-5">
           Related Post
         </h1>
         {/* 1st */}
-        <div className="flex flex-wrap justify-center gap-4 h-[478px]">
+        <div className="flex flex-wrap justify-center gap-4 h-auto mb-5">
           <div className="w-[358px] h-[431px]  bg-[#ffffff]">
             <img src={img} className="w-[358px] h-[192px]" />
             <div className="h-231px p-2">
@@ -93,7 +93,7 @@ const Redpen = () => {
             </div>
           </div>
           {/* 3rd */}
-          <div className="w-[358px] h-[421px]  bg-[#ffffff]">
+          <div className="w-[358px] h-[421px] lg:mb-5 sm:mb-5 bg-[#ffffff]">
             <img src={img2} className="w-[358px] h-[192px]" />
             <div className="h-231px p-2">
               <p className="text-[#404040] pb-2">Boarding School Series</p>
