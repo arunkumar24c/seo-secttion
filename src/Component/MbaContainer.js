@@ -3,7 +3,7 @@ import Img from "../assest/Group 62611912.png"
 
 const MbaContainer = () => {
   return (
-    <div>
+    <div name="MbaContainer">
       <div className="bg-[#ffffff] p-4">
         <h1 className="text-2xl font-bold text-[#1A1757] mb-4">
           The MBA education system in Canada

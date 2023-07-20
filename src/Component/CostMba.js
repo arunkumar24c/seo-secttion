@@ -2,7 +2,7 @@ import React from "react";
 
 const CostMba = () => {
   return (
-    <div className="mt-8">
+    <div className="mt-8" name="CostMba">
       <h1 className="text-[#1A1757] text-2xl font-bold mb-4">
         Cost of MBA in Canada for International Students
       </h1>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const TopProgram = () => {
   return (
-    <div className="mt-11 mb-11">
+    <div className="mt-11 mb-11" name="TopProgram">
       <h1 className="text-[#1a1757] text-2xl font-bold">
         Top Programs and Specialisations for International Students
       </h1>

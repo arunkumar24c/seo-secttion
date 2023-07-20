@@ -10,6 +10,10 @@ import Intake from "./Intake";
 import Application from "./Application";
 import Visa from "./Visa";
 import Working from "./Working";
+import Redpen from "./Redpen";
+import Faq from "./Faq";
+import TrpSection from "./TrpSection";
+import { Link } from "react-scroll";
 
 const Container = () => {
   return (
@@ -39,67 +43,67 @@ const Container = () => {
             <div className="p-3">
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  Overview
+                  <Link to="Overview">Overview</Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  MBA system in Canada
+                  <Link to="MbaContainer">MBA system in Canada</Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  Popular Canadian Universities
+                  <Link to="Popular">Popular Canadian Universities</Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  Cost of MBA in Canada
+                  <Link to="CostMba">Cost of MBA in Canada</Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  Scholarships for MBA in Canada
+                  <Link to="Scholarship">Scholarships for MBA in Canada</Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  Top Programs and Specialisations
+                  <Link to="TopProgram">Top Programs and Specialisations</Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  Intake & Deadline
+                  <Link to="Intake">Intake & Deadline</Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  Application Requirements
+                  <Link to="Application">Application Requirements</Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  Visa for MBA in Canada
+                  <Link to="Visa">Visa for MBA in Canada</Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  Work during Study
+                  <Link to="Working">Work during Study</Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  Why The Red Pen?
+                  <Link to="Redpen">Why The Red Pen?</Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  Testimonials
+                  <Link to="TrpSection">Testimonials</Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  FAQs
+                  <Link to="Faq">FAQs</Link>
                 </a>
               </p>
             </div>
@@ -113,11 +117,14 @@ const Container = () => {
         <Popular />
         <CostMba />
         <Scholarship />
-        <TopProgram/>
-        <Intake/>
-        <Application/>
-        <Visa/>
-        <Working/>
+        <TopProgram />
+        <Intake />
+        <Application />
+        <Visa />
+        <Working />
+        <Redpen />
+        <TrpSection />
+        <Faq />
       </div>
     </div>
   );

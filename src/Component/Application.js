@@ -2,7 +2,7 @@ import React from "react";
 
 const Application = () => {
   return (
-    <div className="mt-4">
+    <div className="mt-4" name="Application">
       <h1 className="text-[#1a1757] font-bold text-2xl mb-3">
         Application Requirements for MBA in Canada
       </h1>

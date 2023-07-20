@@ -2,7 +2,7 @@ import React from 'react'
 
 const Intake = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5" name="Intake">
       <h1 className="text-[#1a1757] text-2xl font-bold mb-3">
         Intake and Deadlines for MBA in Canada
       </h1>

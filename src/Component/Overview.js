@@ -2,7 +2,7 @@ import React from 'react'
 import Img from "../assest/Layer_1 (1).png";
 const Overview = () => {
   return (
-    <div>
+    <div name="Overview">
       <div className="bg-[#ffffff] p-4">
         <p className="text-[#404040] text-[12px]">
           Pre-College Advising • Post

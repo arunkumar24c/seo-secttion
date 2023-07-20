@@ -2,7 +2,7 @@ import React from 'react'
 
 const Working = () => {
   return (
-    <div className="mt-4 mb-6">
+    <div className="mt-4 mb-6" name="Working">
       <h1 className="text-[#1a1757] text-2xl font-bold mb-3">
         Work During Study
       </h1>
@@ -182,7 +182,9 @@ const Working = () => {
         work visa and be eligible to work under an open work permit during your
         PGWP period.
       </p>
-      <h2 className="text-[#696969] font-bold mb-3">Continued stay in Canada</h2>
+      <h2 className="text-[#696969] font-bold mb-3">
+        Continued stay in Canada
+      </h2>
       <p className="text-[#696969] mb-3">
         You can leverage your relevant work experience, language skills, and
         education to qualify for Express Entry to secure permanent residence in

@@ -3,7 +3,7 @@ import Imgs from "../assest/Group 62611997.png";
 
 const Scholarship = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5" name="Scholarship">
       <h1 className="text-[#1a1757] font-bold text-2xl ">
         Scholarships for a Canadian MBA for Indian students
       </h1>

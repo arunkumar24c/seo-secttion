@@ -8,7 +8,7 @@ import Table from "./Table";
 
 const Popular = () => {
   return (
-    <div>
+    <div name="Popular">
       <h1 className="text-[#1A1757] text-2xl font-bold">
         Popular Canadian Universities for an MBA
       </h1>
@@ -21,7 +21,7 @@ const Popular = () => {
       <div className="">
         <img
           src={logo}
-          className="xl:w-[271px] lg:h-[74px] p-5 sm:w-[400px]"
+          className="xl:w-[281px] xl:h-[100px] p-5 sm:w-[400px]"
         ></img>
         {/* 1st */}
         <h1 className="text-2xl font-bold text-[#1A1757] mb-2">
@@ -136,7 +136,7 @@ const Popular = () => {
       <div className="">
         <img
           src={logo1}
-          className="lg:w-[296px] lg:h-[49px] p-5 sm:w-[400px]"
+          className="lg:w-[296px] xl:h-[100px] p-5 sm:w-[400px]"
         ></img>
         {/* 1st */}
         <h1 className="text-2xl font-bold text-[#1A1757] mb-2">
@@ -227,7 +227,7 @@ const Popular = () => {
       <div className="">
         <img
           src={logo2}
-          className="lg:w-[296px] lg:h-[49px] p-5 sm:w-[300px]"
+          className="xl:w-[296px] xl:h-[100px] p-5 sm:w-[300px]"
         ></img>
         {/* 1st */}
         <h1 className="text-2xl font-bold text-[#1A1757] mb-2">

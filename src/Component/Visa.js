@@ -3,7 +3,7 @@ import Imgs from "../assest/Group 62611998.png"
 
 const Visa = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5" name="Visa">
       <h1 className="text-[#1a1757] font-bold text-2xl mb-4">
         Visa for MBA in Canada for International Students
       </h1>
