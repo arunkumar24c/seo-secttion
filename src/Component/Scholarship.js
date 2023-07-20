@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import Imgs from "../assest/Group 62611997.png";
 
 const Scholarship = () => {
   return (
@@ -12,12 +13,14 @@ const Scholarship = () => {
         some scholarships that apply to Indian students:
       </p>
       {/* table */}
-      <div className="flex justify-center p-4">
+      <div className="flex justify-center p-3">
         <table className="table-auto">
           <thead>
             <tr>
-              <th className="text-[#ffffff] bg-[#0ea2aa] p-3">Song</th>
-              <th className="text-[#ffffff] bg-[#0ea2aa] p-3">Artist</th>
+              <th className="text-[#ffffff] bg-[#0ea2aa] p-3">Expenses</th>
+              <th className="text-[#ffffff] bg-[#0ea2aa] p-3">
+                Approximate yearly costs
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -86,48 +89,307 @@ const Scholarship = () => {
             {/* 6 */}
             <tr>
               <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
-                Forté Fellowship Awards | Multiple universities
+                Adam Dinkes MBA Leadership Award |<br /> Desautels Faculty of
+                Management,
+                <br /> McGill University
               </td>
               <td className="text-[#696969] p-2">
-                Merit-based scholarship for those who have demonstrated<br/>
-                leadership skills. Preference is given to students with<br/> interest
-                in entrepreneurship.<br/> Value: CAD 10,000
+                Merit-based scholarship for those who have demonstrated
+                <br />
+                leadership skills. Preference is given to students with
+                <br /> interest in entrepreneurship.
+                <br /> Value: CAD 10,000
               </td>
             </tr>
             {/* 7 */}
             <tr>
               <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
-                Forté Fellowship Awards | Multiple universities
+                Duerksen MBA Leadership Award | Desautels
+                <br /> Faculty of Management, McGill University
               </td>
               <td className="text-[#696969] p-2">
-                Merit-based scholarship for women who exhibit exemplary
+                Merit-based scholarship for those who have demonstrated
+                community
+                <br /> leadership or work in the not-for-profit sector in
                 <br />
-                leadership, represent diverse backgrounds, and demonstrate a
-                <br />
-                commitment to advancing women in business.
-                <br /> Value: CAD 10,000 to CAD 40,000
+                developing countries.
+                <br /> Value: CAD 10,000
               </td>
             </tr>
             {/* 8 */}
             <tr>
               <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
-                Forté Fellowship Awards | Multiple universities
+                Daniel Galvao MBA Leadership Award |<br /> Desautels Faculty of
+                Management, McGill University
               </td>
               <td className="text-[#696969] p-2">
-                Merit-based scholarship for women who exhibit exemplary
+                Merit-based scholarship for those who have demonstrated
                 <br />
-                leadership, represent diverse backgrounds, and demonstrate a
+                leadership skills. Preference is given to female students from
                 <br />
-                commitment to advancing women in business.
-                <br /> Value: CAD 10,000 to CAD 40,000
+                developing countries.
+                <br /> Value: CAD 10,000
               </td>
             </tr>
             {/* 9 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Dominic K.M. Lai MBA Fellowship | Desautels
+                <br /> Faculty of Management, McGill University
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship. Preference is given to students from
+                Asia.
+                <br /> Value: Varies
+              </td>
+            </tr>
+            {/* 10 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Dominic K.M. Lai MBA Fellowship | Desautels
+                <br /> Faculty of Management, McGill University
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship. Preference is given to students from
+                Asia.
+                <br /> Value: Varies
+              </td>
+            </tr>
+            {/* 11 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Ip Kim Hung MBA Leadership Award |<br /> Desautels Faculty of
+                Management,
+                <br /> McGill University
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship for those who have demonstrated
+                leadership
+                <br /> skills. Preference is given to students from countries in
+                Asia.
+                <br /> Value: Varies
+              </td>
+            </tr>
+            {/* 12 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Samer Bekai-Saab MBA Entrance |<br /> Desautels Faculty of
+                Management, McGill
+                <br /> University Fellowship
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship for those who have demonstrated
+                <br />
+                leadership skills. <br />
+                Value: Varies
+              </td>
+            </tr>
+            {/* 13 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Tullio Cedrashi MBA Leadership Award |<br /> Desautels Faculty
+                of Management, McGill
+                <br /> University Fellowship
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship for those who have demonstrated strong
+                <br />
+                leadership qualities.
+                <br /> Value: CAD 10,000. Non-renewable
+              </td>
+            </tr>
+            {/* 14 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Scholarships and Awards | Ivey Business
+                <br /> School, Western University
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based awards and scholarships for those who have
+                <br />
+                demonstrated leadership qualities through education, activities,
+                and <br />
+                work experience.
+                <br /> Value: CAD 10,000 - CAD 65,000
+              </td>
+            </tr>
+            {/* 15 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Ivey Global Leader Award | Ivey Business
+                <br /> School, Western University
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based awards and scholarships for those who have
+                <br />
+                demonstrated leadership qualities through education, activities,
+                and <br /> work experience.
+                <br /> Value: CAD 10,000 - CAD 65,000
+              </td>
+            </tr>
+            {/* 16 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                General Entrance Scholarships | Smith School <br />
+                of Business, Queen's University
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarships
+                <br /> Value: CAD 10,000 - full tuition
+              </td>
+            </tr>
+            {/* 17 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Len Morrow MBA Scholarship | Smith School
+                <br /> of Business, Queen's University
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship for women who have demonstrated
+                <br /> strong leadership.
+                <br /> Value: Varies
+              </td>
+            </tr>
+            {/* 18 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Liana Tesan Memorial Scholarship | Smith
+                <br /> School of Business, Queen's University
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship.
+                <br /> Value: Varies
+              </td>
+            </tr>
+            {/* 19 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Dean’s MBA Admission Scholarships | Smith <br />
+                School of Business, Queen's University
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship.
+                <br /> Value: Varies
+              </td>
+            </tr>
+            {/* 20 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Stephen J.R. Smith MBA Scholarships | Smith
+                <br /> School of Business, Queen's University
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship.
+                <br /> Value: Varies
+              </td>
+            </tr>
+            {/* 21 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Dean's International Scholarship | Schulich
+                <br /> School of Business, York University
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship. <br />
+                Value: CAD 6,000
+              </td>
+            </tr>
+            {/* 22 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                International Student Award | Schulich School
+                <br /> of Business, York University
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship.
+                <br /> Value: CAD 5,000
+              </td>
+            </tr>
+            {/* 23 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Ontario Graduate Scholarship | Canadian
+                <br /> Government and multiple universities
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship.
+                <br /> Value: CAD 15,000 per academic year
+              </td>
+            </tr>
+            {/* 24 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Education Future International Scholarship
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship.
+                <br /> Value: CAD 3000-16,000
+              </td>
+            </tr>
+            {/* 25 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                GyanDhan Scholarship
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship.
+                <br /> Value: CAD 1650
+              </td>
+            </tr>
+            {/* 26 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                MPOWER Global Citizen Scholarship
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship. <br />
+                Value: USD 2,000 - USD 10,000
+              </td>
+            </tr>
+            {/* 27 */}
+            <tr>
+              <td className="text-[#1a1757] font-bold bg-[#f0f0f0] p-3">
+                Sandhya and Swati Sharma
+                <br /> MBA Leadership Award
+              </td>
+              <td className="text-[#696969] p-2">
+                Merit-based scholarship.
+                <br /> Value: CAD 10,000 per academic year
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
+      <div>
+        <p className="mt-4 text-[#696969] font-normal">
+          Some of the best education consultants in Canada assist in scholarship
+          applications for students who wish to study in Canada.
+        </p>
+      </div>
+      {/* poster container */}
+      <div className="lg:w-[950px] lg:h-[270px] flex flex-wrap justify-center xl:w-[950px] xl:h-[240px]  bg-[#e1e1e1] sm:w-full sm:h-[171px] mt-11">
+        {/* left content */}
+        <div className="lg:w-[460px] lg:h-[150px]">
+          <h2 className="text-2xl xl:pt-11 xl:pl-10 xl:pr-10 font-bold text-[#1A1757] pl-10 pt-10 pb-3 pr-11">
+            Speak to our Canada expert to
+            <br /> understand the education system
+          </h2>
+          <div className="pl-9 pb-3 ">
+            <button className="bg-[#D82128] w-[131px] h-[39px] rounded-full  text-white font-medium">
+              Consult Now
+            </button>
+          </div>
+        </div>
+        {/* right content */}
+        <div>
+          <img
+            src={Imgs}
+            className="w-[261px] h-[153px] pl-11 xl:pt-9 xl:h-[171px]"
+          />
+        </div>
+      </div>
     </div>
   );
-}
+};
 
-export default Scholarship
+export default Scholarship;

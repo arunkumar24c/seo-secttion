@@ -5,6 +5,11 @@ import MbaContainer from "./MbaContainer";
 import Popular from "./Popular";
 import CostMba from "./CostMba";
 import Scholarship from "./Scholarship";
+import TopProgram from "./TopProgram";
+import Intake from "./Intake";
+import Application from "./Application";
+import Visa from "./Visa";
+import Working from "./Working";
 
 const Container = () => {
   return (
@@ -108,6 +113,11 @@ const Container = () => {
         <Popular />
         <CostMba />
         <Scholarship />
+        <TopProgram/>
+        <Intake/>
+        <Application/>
+        <Visa/>
+        <Working/>
       </div>
     </div>
   );
