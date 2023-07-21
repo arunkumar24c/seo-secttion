@@ -57,7 +57,7 @@ const Table = () => {
 
             <td className="text-[#696969] p-4">4</td>
             <td className="text-[#696969] p-4">275</td>
-            <td className="text-[#696969] p-4">Business/Commerce</td>
+            <td className="text-[#696969] p-4">Business/<br/>Commerce</td>
             <td className="text-[#696969] p-4">31%</td>
             <td className="text-[#696969] p-4">65%</td>
             <td className="text-[#696969] p-4">45%</td>
@@ -75,7 +75,7 @@ const Table = () => {
             <td className="text-[#696969] p-4">5.5</td>
             <td className="text-[#696969] p-4">65-85</td>
 
-            <td className="text-[#696969] p-4">Business&Engineering</td>
+            <td className="text-[#696969] p-4">Business&<br/>Engineering</td>
             <td className="text-[#696969] p-4">35%Each</td>
             <td className="text-[#696969] p-4">60%</td>
             <td className="text-[#696969] p-4">31%</td>
@@ -121,7 +121,7 @@ const Table = () => {
             <td className="text-[#696969] p-4">6.62</td>
             <td className="text-[#696969] p-4">5.5</td>
             <td className="text-[#696969] p-4">270</td>
-            <td className="text-[#696969] p-4">Eng./Math/Science</td>
+            <td className="text-[#696969] p-4">Eng./Math/<br/>Science</td>
             <td className="text-[#696969] p-4">43%</td>
             <td className="text-[#696969] p-4">63%</td>
             <td className="text-[#696969] p-4">40%</td>

@@ -12,7 +12,7 @@ const CostMba = () => {
         to consider the associated costs before making this decision.
       </p>
       {/* table  */}
-      <table className="xl:w-[1100px] xl:h-[260px] lg:w-full sm:w-full">
+      <table className="xl:w-[940px] xl:h-[260px] lg:w-full sm:w-full">
         <thead className="table-auto bg-[#0EA2AA] text-[#ffffff] p-2">
           <tr className="">
             <th className="p-2">Program</th>
@@ -57,7 +57,7 @@ const CostMba = () => {
       </p>
       {/* 2nd table */}
       <div className="flex justify-center mb-11 mt-11">
-        <table className="table-auto xl:ml-[8rem] xl:w-[592px] xl:h-[111px] sm:">
+        <table className="table-auto xl:ml-[8rem] xl:w-[592px] xl:h-[111px] sm:w-full">
           <thead>
             <tr className="text-[#ffffff] bg-[#0EA2AA] ">
               <th className="p-1">Canada</th>
