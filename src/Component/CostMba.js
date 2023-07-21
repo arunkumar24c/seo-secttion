@@ -12,7 +12,7 @@ const CostMba = () => {
         to consider the associated costs before making this decision.
       </p>
       {/* table  */}
-      <table className="xl:w-[940px] xl:h-[260px] lg:w-full sm:w-full">
+      <table className="xl:w-full xl:h-[260px] lg:w-full sm:w-full">
         <thead className="table-auto bg-[#0EA2AA] text-[#ffffff] p-2">
           <tr className="">
             <th className="p-2">Program</th>

@@ -14,12 +14,12 @@ import Redpen from "./Redpen";
 import Faq from "./Faq";
 import TrpSection from "./TrpSection";
 import { Link } from "react-scroll";
+import { SectionScroll } from "../utilit";
 
 const Container = () => {
   return (
-    <div className="flex flex-wrap">
-      {/* left container */}
-      <div className="w-full hidden xl:block  top-0 md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 xl:sticky xl:top-0 h-screen ">
+    <div>
+      <div className="fixed hidden xl:block overflow-y-scroll top-0 w-1/5">
         <div className="bg-[#ffffff] p-4">
           <div className="">
             <h2 className="text-lg text-[#1A1757] font-bold mb-4">
@@ -48,7 +48,10 @@ const Container = () => {
                   </Link>
                 </a>
               </p>
-              <p className="text-m text-[#1A1757] font-medium mb-7 ">
+              <p
+                onClick={() => SectionScroll("mba-canada")}
+                className="text-m text-[#1A1757] font-medium mb-7 "
+              >
                 <a href="" className="border-b-2 border-b-[#1A1757]">
                   <Link to="MbaContainer" smooth duration={500}>
                     MBA system in Canada
@@ -136,21 +139,24 @@ const Container = () => {
           </div>
         </div>
       </div>
+
       {/* right container */}
-      <div className="w-full sm:w-full lg:w-full xl:flex-1  xl:h-screen xl:overflow-y-scroll xl:w-fit px-4">
-        <Overview />
-        <MbaContainer />
-        <Popular />
-        <CostMba />
-        <Scholarship />
-        <TopProgram />
-        <Intake />
-        <Application />
-        <Visa />
-        <Working />
-        <Redpen />
-        <TrpSection />
-        <Faq />
+      <div className="flex justify-end sm:justify-start lg:justify-start">
+        <div className="w-4/5 sm:w-full lg:w-full p-6">
+          <Overview />
+          <MbaContainer />
+          <Popular />
+          <CostMba />
+          <Scholarship />
+          <TopProgram />
+          <Intake />
+          <Application />
+          <Visa />
+          <Working />
+          <Redpen />
+          <TrpSection />
+          <Faq />
+        </div>
       </div>
     </div>
   );

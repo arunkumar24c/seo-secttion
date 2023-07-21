@@ -39,7 +39,7 @@ const Working = () => {
         three-year work permit.
       </p>
       {/* table container */}
-      <div className="flex justify-center mb-11 mt-11">
+      <div className="flex justify-center mb-11 mt-11 p-3">
         <table className="table-auto w-[878px] h-[662px] sm:w-full lg:w-full">
           <thead>
             <tr className="text-[#ffffff] bg-[#0EA2AA] ">

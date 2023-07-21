@@ -28,30 +28,30 @@ const TrpSection = () => {
         {/* 2nd */}
         <div className="bg-[#f1f3f3] w-[400px] h-[319px]">
           <div className="p-6">
-            <h2 className="text-[#1a1757] font-bold">Sandeep Kalsi</h2>
+            <h2 className="text-[#1a1757] font-bold">Sreeja Iyer</h2>
             <p className="text-[#404040] font-normal pb-2">Year of 97</p>
             <p className="text-[#404040] font-normal pb-2">
-              “Thank you very much, Red Pen team - Prabhnoor, Trina, and Mehnaz.
-              Your guidance was instrumental in getting her early admit offer in
-              'Computer Science' at UofT St George campus.The topping on the
-              cake was an exceptional scholarship award. I strongly recommend
-              'Red Pen team' to guide teenagers for college admissions at
-              Canada.”
+              Namita and Sheetal joined us at Sparkling Mindz Global School for
+              a fruitful face-to-face session on motivation and finding the best
+              path for each child. Their passion and commitment were evident,
+              providing valuable clarity to parents and students. We gained
+              insights into subject selections and the importance of higher
+              education. Excited for future interactions!
             </p>
           </div>
         </div>
         {/* 3rd */}
         <div className="bg-[#f1f3f3] w-[400px] h-[319px]">
           <div className="p-6">
-            <h2 className="text-[#1a1757] font-bold">Sandeep Kalsi</h2>
+            <h2 className="text-[#1a1757] font-bold">Ayanna Lobo</h2>
             <p className="text-[#404040] font-normal pb-2">Year of 97</p>
             <p className="text-[#404040] font-normal pb-2">
-              “Thank you very much, Red Pen team - Prabhnoor, Trina, and Mehnaz.
-              Your guidance was instrumental in getting her early admit offer in
-              'Computer Science' at UofT St George campus.The topping on the
-              cake was an exceptional scholarship award. I strongly recommend
-              'Red Pen team' to guide teenagers for college admissions at
-              Canada.”
+              The Red Pen surpassed my expectations. Dhishana provided
+              invaluable assistance in improving my college essays, while
+              Prishma guided me throughout the entire process of college
+              selection, essay editing, interview preparation, and CV building.
+              They are knowledgeable and excellent counselors. Thank you,
+              Prishma, Dhishana, and the Red Pen team.
             </p>
           </div>
         </div>

@@ -43,7 +43,7 @@ const Redpen = () => {
         consulting, family business, not-for-profit, and the armed forces.
       </p>
       {/* card */}
-      <div className="bg-[#f3f3f3] h-auto mt-8 mb-5">
+      <div className="bg-[#f3f3f3] h-auto hidden xl:block  mt-8 mb-5">
         <h1 className="text-[#1a1757] flex justify-center font-bold text-2xl pt-4 pb-5">
           Related Post
         </h1>

@@ -3,9 +3,7 @@ import React, { useState } from "react";
 const FAQItem = ({ question, answer, isActive, toggleFAQ }) => {
   return (
     <div
-      className={`border rounded-md ${
-        isActive ? "bg-white" : "bg-white"
-      } p-4`}
+      className={`border rounded-md ${isActive ? "bg-white" : "bg-white"} p-4`}
     >
       <div
         className={`cursor-pointer  flex justify-between items-center ${
@@ -14,9 +12,13 @@ const FAQItem = ({ question, answer, isActive, toggleFAQ }) => {
         onClick={toggleFAQ}
       >
         <span className="text-[#1a1757] font-bold text-lg">{question}</span>
-        <span className="ml-2 text-[#5B5B5B] text-2xl">{isActive ? "-" : "+"}</span>
+        <span className="ml-2 text-[#5B5B5B] text-2xl">
+          {isActive ? "⊖" : "⊕"}
+        </span>
       </div>
-      {isActive && <div className="mt-2 text-lg text-[#5B5B5B] bg-white">{answer}</div>}
+      {isActive && (
+        <div className="mt-2 text-lg text-[#5B5B5B] bg-white">{answer}</div>
+      )}
     </div>
   );
 };
