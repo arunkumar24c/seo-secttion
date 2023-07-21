@@ -367,14 +367,15 @@ const Scholarship = () => {
         </p>
       </div>
       {/* poster container */}
-      <div className="lg:w-[950px] lg:h-[270px] flex flex-wrap justify-center xl:w-[950px] xl:h-[240px]  bg-[#e1e1e1] sm:w-full sm:h-[171px] mt-11">
+      <div className="w-[950px] h-[270] lg:w-[950px] lg:h-[270px] flex flex-wrap justify-center xl:w-[950px] xl:h-[270px]  bg-[#f8f8f8] sm:w-full  mt-11 rounded-lg">
         {/* left content */}
-        <div className="lg:w-[460px] lg:h-[150px]">
-          <h2 className="text-2xl xl:pt-11 xl:pl-10 xl:pr-10 font-bold text-[#1A1757] pl-10 pt-10 pb-3 pr-11">
+        <div className="w-[460px] h-[270px] pt-11">
+          
+          <h2 className="text-[28px] font-bold  text-[#1A1757]">
             Speak to our Canada expert to
             <br /> understand the education system
           </h2>
-          <div className="pl-9 pb-3 ">
+          <div className=" pt-4">
             <button className="bg-[#D82128] w-[131px] h-[39px] rounded-full  text-white font-medium">
               Consult Now
             </button>
@@ -384,7 +385,7 @@ const Scholarship = () => {
         <div>
           <img
             src={Imgs}
-            className="w-[261px] h-[153px] pl-11 xl:pt-9 xl:h-[171px]"
+            className="w-[261px] h-[153px] pl-11 pt-5 xl:pt-9 xl:h-[171px] sm:h-[180px] sm:w-[280px]"
           />
         </div>
       </div>

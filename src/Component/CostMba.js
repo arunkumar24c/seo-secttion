@@ -2,7 +2,7 @@ import React from "react";
 
 const CostMba = () => {
   return (
-    <div className="mt-8" name="CostMba">
+    <div className="mt-8" name="CostMba" smooth duration={500}>
       <h1 className="text-[#1A1757] text-2xl font-bold mb-4">
         Cost of MBA in Canada for International Students
       </h1>
@@ -124,13 +124,15 @@ const CostMba = () => {
             </tr>
             <tr>
               <td className="bg-[#F0F0F0] p-3">
-                Health insurance for<br/> international students
+                Health insurance for
+                <br /> international students
               </td>
               <td className=" p-3">550</td>
             </tr>
             <tr>
               <td className="bg-[#F0F0F0] p-4">
-                Study material <br/>and stationery
+                Study material <br />
+                and stationery
               </td>
               <td className=" p-3">1500</td>
             </tr>

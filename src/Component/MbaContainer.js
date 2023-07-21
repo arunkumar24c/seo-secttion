@@ -86,21 +86,21 @@ const MbaContainer = () => {
             </ul>
           </div>
           {/* poster container */}
-          <div className="lg:w-[950px] lg:h-[270px] flex flex-wrap">
+          <div className="w-[950px] h-[270px] flex flex-wrap bg-[#f8f8f8] rounded-lg">
             {/* left content */}
-            <div className="lg:w-[430px] lg:h-[150px]">
-              <h2 className="text-xl font-bold text-[#1A1757] p-8">
+            <div className="w-[460px] h-[150px] pt-[50px] pl-9 pr-5">
+              <h2 className="text-2xl font-bold text-[#1A1757] ">
                 Speak to our Canada expert to
                 <br /> understand the education system
               </h2>
-              <div className='pl-7'>
+              <div className="pl-3 pt-5">
                 <button className="bg-[#D82128] w-[131px] h-[39px] rounded-full text-white font-medium">
                   Consult Now
                 </button>
               </div>
             </div>
             {/* right content */}
-            <div>
+            <div className=' pt-7 pl-5'>
               <img src={Img} className="w-[228px] h-[163px]" />
             </div>
           </div>

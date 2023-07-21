@@ -106,14 +106,13 @@ const Visa = () => {
         take anywhere between 5 to 10 years.
       </p>
       {/* post container  */}
-      <div className="lg:w-[950px] lg:h-[270px] flex justify-center flex-wrap xl:w-[950px] xl:h-[240px]  bg-[#e1e1e1] sm:w-full sm:h-[191px] mt-11">
+      <div className="w-[950px] h-[270] lg:w-[950px] lg:h-[270px] flex flex-wrap justify-center xl:w-[950px] xl:h-[270px]  bg-[#f8f8f8] sm:w-full  mt-11 rounded-lg">
         {/* left content */}
-        <div className="lg:w-[460px] lg:h-[150px]">
-          <h2 className="text-xl xl:pt-11 xl:pl-10 xl:pr-10 font-bold text-[#1A1757] pl- pt-10 pb-3 ">
-            We help you select an MBA program in
-            <br /> Canada as per your financial requirement
+        <div className="w-[460px] h-[270px] pt-11">
+          <h2 className="text-2xl font-bold  text-[#1A1757]">
+            We help you select an MBA program in<br/> Canada as per your financialrequirement
           </h2>
-          <div className="pl-9 pb-3 ">
+          <div className=" pt-5">
             <button className="bg-[#D82128] w-[131px] h-[39px] rounded-full  text-white font-medium">
               Consult Now
             </button>
@@ -123,7 +122,7 @@ const Visa = () => {
         <div>
           <img
             src={Imgs}
-            className="w-[261px] h-[153px]  xl:pt-9 xl:h-[171px] pt-4"
+            className="w-[261px] h-[153px] pl-11 pt-6 mt-2 xl:pt-9 xl:h-[171px] sm:h-[180px] sm:w-[280px]"
           />
         </div>
       </div>

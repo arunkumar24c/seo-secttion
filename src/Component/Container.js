@@ -43,62 +43,86 @@ const Container = () => {
             <div className="p-3">
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="Overview">Overview</Link>
+                  <Link to="Overview" smooth duration={500}>
+                    Overview
+                  </Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="MbaContainer">MBA system in Canada</Link>
+                  <Link to="MbaContainer" smooth duration={500}>
+                    MBA system in Canada
+                  </Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="Popular">Popular Canadian Universities</Link>
+                  <Link to="Popular" smooth duration={500}>
+                    Popular Canadian Universities
+                  </Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="CostMba">Cost of MBA in Canada</Link>
+                  <Link to="CostMba" smooth duration={500}>
+                    Cost of MBA in Canada
+                  </Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="Scholarship">Scholarships for MBA in Canada</Link>
+                  <Link to="Scholarship" smooth duration={500}>
+                    Scholarships for MBA in Canada
+                  </Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="TopProgram">Top Programs and Specialisations</Link>
+                  <Link to="TopProgram" smooth duration={500}>
+                    Top Programs and Specialisations
+                  </Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="Intake">Intake & Deadline</Link>
+                  <Link to="Intake" smooth duration={500}>
+                    Intake & Deadline
+                  </Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="Application">Application Requirements</Link>
+                  <Link to="Application" smooth duration={500}>
+                    Application Requirements
+                  </Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="Visa">Visa for MBA in Canada</Link>
+                  <Link to="Visa" smooth duration={500}>
+                    Visa for MBA in Canada
+                  </Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="Working">Work during Study</Link>
+                  <Link to="Working" smooth duration={500}>
+                    Work during Study
+                  </Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="Redpen">Why The Red Pen?</Link>
+                  <Link to="Redpen" smooth duration={500}>
+                    Why The Red Pen?
+                  </Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="TrpSection">Testimonials</Link>
+                  <Link to="TrpSection" smooth duration={500}>
+                    Testimonials
+                  </Link>
                 </a>
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
@@ -113,7 +137,7 @@ const Container = () => {
         </div>
       </div>
       {/* right container */}
-      <div className="w-full sm:w-full xl:flex-1  xl:h-screen xl:overflow-y-scroll  lg:w-2/3 xl:w-3/4 px-4">
+      <div className="w-full sm:w-full lg:w-full xl:flex-1  xl:h-screen xl:overflow-y-scroll xl:w-fit px-4">
         <Overview />
         <MbaContainer />
         <Popular />

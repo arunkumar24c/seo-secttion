@@ -316,7 +316,7 @@ const Popular = () => {
       <div className="">
         <img
           src={logo3}
-          className="lg:w-[296px] lg:h-[79px] p-5 sm:w-[300px]"
+          className=" xl:h-[85px] lg:w-[296px] lg:h-[79px] p-5 sm:w-[300px]"
         ></img>
         {/* 1st */}
         <h1 className="text-2xl font-bold text-[#1A1757] mb-2">
