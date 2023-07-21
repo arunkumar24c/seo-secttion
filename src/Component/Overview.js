@@ -19,7 +19,7 @@ const Overview = () => {
         </p>
         {/* list 1 */}
         <div className="p-3">
-          <ul>
+          <ul className='text-[18px]'>
             <li className="text-[#696969] font-normal pb-2">
               •
               <span className="text-[#1A1757] font-bold text-lg">

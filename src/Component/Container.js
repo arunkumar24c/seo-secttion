@@ -19,7 +19,7 @@ const Container = () => {
   return (
     <div className="flex flex-wrap">
       {/* left container */}
-      <div className="w-full hidden xl:block lg:block top-0 md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 xl:sticky xl:top-0-0 ">
+      <div className="w-full hidden xl:block lg:block top-0 md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 xl:sticky xl:top-0 h-screen ">
         <div className="bg-[#ffffff] p-4">
           <div className="">
             <h2 className="text-lg text-[#1A1757] font-bold mb-4">
@@ -103,7 +103,9 @@ const Container = () => {
               </p>
               <p className="text-m text-[#1A1757] font-medium mb-7 ">
                 <a href="" className="border-b-2 border-b-[#1A1757]">
-                  <Link to="Faq">FAQs</Link>
+                  <Link to="Faq" smooth duration={500}>
+                    FAQs
+                  </Link>
                 </a>
               </p>
             </div>
@@ -111,7 +113,7 @@ const Container = () => {
         </div>
       </div>
       {/* right container */}
-      <div className="w-full sm:w-full  lg:w-2/3 xl:w-3/4 px-4">
+      <div className="w-full sm:w-full xl:flex-1  xl:h-screen xl:overflow-y-scroll  lg:w-2/3 xl:w-3/4 px-4">
         <Overview />
         <MbaContainer />
         <Popular />
