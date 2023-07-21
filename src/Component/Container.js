@@ -18,8 +18,8 @@ import { SectionScroll } from "../utilit";
 
 const Container = () => {
   return (
-    <div>
-      <div className="fixed hidden xl:block overflow-y-scroll top-0 w-1/5">
+    <div className="flex ">
+      <div className="hidden xl:block xl:w-1/4 fixed overflow-y-scroll top-0">
         <div className="bg-[#ffffff] p-4">
           <div className="">
             <h2 className="text-lg text-[#1A1757] font-bold mb-4">
@@ -141,8 +141,8 @@ const Container = () => {
       </div>
 
       {/* right container */}
-      <div className="flex justify-end">
-        <div className="w-4/5  p-6">
+      <div className="">
+        <div className="  p-6">
           <Overview />
           <MbaContainer />
           <Popular />
