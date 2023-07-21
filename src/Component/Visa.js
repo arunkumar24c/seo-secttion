@@ -106,7 +106,7 @@ const Visa = () => {
         take anywhere between 5 to 10 years.
       </p>
       {/* post container  */}
-      <div className="w-[950px] h-[270] lg:w-[950px] lg:h-[270px] flex flex-wrap justify-center xl:w-[950px] xl:h-[270px]  bg-[#f8f8f8] sm:w-full  mt-11 rounded-lg">
+      <div className=" lg:w-full  flex flex-wrap justify-center xl:w-[950px] xl:h-[270px]  bg-[#f8f8f8] sm:w-full  mt-11 rounded-lg">
         {/* left content */}
         <div className="w-[460px] h-[270px] pt-11">
           <h2 className="text-2xl font-bold  text-[#1A1757]">

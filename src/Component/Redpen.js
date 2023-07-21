@@ -64,7 +64,7 @@ const Redpen = () => {
               </p>
               <p className="text-[#404040]">10/01/2023</p>
               <div className="flex justify-end items-center h-[56px] bg-[#f8f8f8]">
-                <a href="" className="text-[#1a1757] font-bold">
+                <a href="" className="text-[#1a1757] font-bold pb-2">
                   Read More
                 </a>
               </div>
