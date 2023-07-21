@@ -141,8 +141,8 @@ const Container = () => {
       </div>
 
       {/* right container */}
-      <div className="flex justify-end sm:justify-start lg:justify-start">
-        <div className="w-4/5 sm:w-full lg:w-full p-6">
+      <div className="flex justify-end">
+        <div className="w-4/5  p-6">
           <Overview />
           <MbaContainer />
           <Popular />
