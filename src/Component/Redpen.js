@@ -48,7 +48,7 @@ const Redpen = () => {
           Related Post
         </h1>
         {/* 1st */}
-        <div className="flex flex-wrap justify-center gap-4 h-auto mb-5">
+        <div className="flex flex-wrap justify-center gap-4 h-auto mb-6">
           <div className="w-[358px] h-[431px]  bg-[#ffffff]">
             <img src={img} className="w-[358px] h-[192px]" />
             <div className="h-231px p-2">
