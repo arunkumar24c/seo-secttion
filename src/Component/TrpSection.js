@@ -41,7 +41,7 @@ const TrpSection = () => {
           </div>
         </div>
         {/* 3rd */}
-        <div className="bg-[#f1f3f3] w-[400px] h-[319px] sm:hidden">
+        <div className="bg-[#f1f3f3] w-[400px] h-[319px] hidden xl:block">
           <div className="p-6">
             <h2 className="text-[#1a1757] font-bold">Ayanna Lobo</h2>
             <p className="text-[#404040] font-normal pb-2">Year of 97</p>
