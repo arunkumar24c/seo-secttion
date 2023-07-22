@@ -39,8 +39,8 @@ const Working = () => {
         three-year work permit.
       </p>
       {/* table container */}
-      <div className="flex justify-center mb-11 mt-11 p-3 overflow-x-auto">
-        <table className="table-auto w-[878px] h-[662px] sm:w-full lg:w-full">
+      <div className="flex justify-center mb-11 mt-11 p-3 ">
+        <table className="table-auto w-[878px] h-[662px] sm:w-full lg:w-full overflow-x-auto">
           <thead>
             <tr className="text-[#ffffff] bg-[#0EA2AA] ">
               <th className="p-4">School</th>
