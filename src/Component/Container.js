@@ -141,7 +141,7 @@ const Container = () => {
       </div>
 
       {/* right container */}
-      <div className=" xl:flex xl:justify-end">
+      <div className=" xl:flex xl:justify-end sm:w-full">
         <div className="xl:w-4/5 sm:w-full lg:w-full p-6">
           <Overview />
           <MbaContainer />
