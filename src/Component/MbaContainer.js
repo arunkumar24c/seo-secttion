@@ -86,7 +86,7 @@ const MbaContainer = () => {
             </ul>
           </div>
           {/* poster container */}
-          <div className=" flex flex-wrap justify-center bg-[#f8f8f8] rounded-lg sm:w-full lg:w-full">
+          <div className=" flex justify-center bg-[#f8f8f8] rounded-lg sm:w-full lg:w-full">
             {/* left content */}
             <div className="w-[460px] h-[150px] pt-[60px] pl-4 pr-5">
               <h2 className="text-2xl font-bold text-[#1A1757] ">
