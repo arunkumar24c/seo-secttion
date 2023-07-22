@@ -19,7 +19,7 @@ import { SectionScroll } from "../utilit";
 const Container = () => {
   return (
     <div className="flex ">
-      <div className="hidden xl:block xl:w-1/4 fixed overflow-y-scroll top-0">
+      <div className="hidden xl:block xl:w-1/5 fixed overflow-y-scroll top-0">
         <div className="bg-[#ffffff] p-4">
           <div className="">
             <h2 className="text-lg text-[#1A1757] font-bold mb-4">
