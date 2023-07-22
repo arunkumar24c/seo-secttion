@@ -9,7 +9,7 @@ const TrpSection = () => {
       <p className="flex justify-center text-[#1a1757] text-lg font-normal pb-6">
         Here’s what our applicants have to say
       </p>
-      <div className="flex flex-wrap justify-center gap-5">
+      <div className="flex justify-center gap-5">
         {/* 1st */}
         <div className="bg-[#f1f3f3] w-[400px] h-[319px]">
           <div className="p-6">
@@ -26,7 +26,7 @@ const TrpSection = () => {
           </div>
         </div>
         {/* 2nd */}
-        <div className="bg-[#f1f3f3] w-[400px] h-[319px]">
+        <div className="bg-[#f1f3f3] w-[400px] h-[319px] hidden xl:block ">
           <div className="p-6">
             <h2 className="text-[#1a1757] font-bold">Sreeja Iyer</h2>
             <p className="text-[#404040] font-normal pb-2">Year of 97</p>
@@ -41,7 +41,7 @@ const TrpSection = () => {
           </div>
         </div>
         {/* 3rd */}
-        <div className="bg-[#f1f3f3] w-[400px] h-[319px]">
+        <div className="bg-[#f1f3f3] w-[400px] h-[319px] sm:hidden">
           <div className="p-6">
             <h2 className="text-[#1a1757] font-bold">Ayanna Lobo</h2>
             <p className="text-[#404040] font-normal pb-2">Year of 97</p>
